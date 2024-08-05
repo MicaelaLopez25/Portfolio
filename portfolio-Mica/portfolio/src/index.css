@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  background-color: rgb(77, 77, 77);
+}
+
+/* BackgroundVideo.css */
+.video-background {
+  position: relative;
+  width: 100%;
+  height: 200px; /* O el tamaño que prefieras */
+  grid-row: auto;
+  overflow: hidden;
+}
+
+.video-background__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 170%;
+  object-fit: cover; /* Ajusta el video para que cubra toda el área */
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255); /* O el color que prefieras */
+  text-align: center;
+}
+
+.contacto {
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255); /* O el color que prefieras */
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .video-background {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  body {
+    margin: 0;
+  }
+}
+.color {
+  color: aliceblue;
+  text-shadow: 1px 1px 2px black;
+}
+
+.boton-elegante::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.25) 0%,
+    rgba(255, 255, 255, 0) 70%
+  );
+  transform: scale(0);
+  transition: transform 0.5s ease;
+}
+
+.boton-elegante:hover::after {
+  transform: scale(4);
+}
+
+.boton-elegante {
+  padding: 8px 10px;
+  border: 2px solid #2c2c2c;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: all 0.4s ease;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+  font-weight: bold;
+  margin-left: 30%;
+}
+
+.boton-elegante:hover {
+  border-color: #666666;
+  background: #292929;
+}
