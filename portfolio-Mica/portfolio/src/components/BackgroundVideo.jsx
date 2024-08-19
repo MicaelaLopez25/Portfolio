@@ -9,9 +9,7 @@ const BackgroundVideo = () => {
         <source src="./video/fondo.mp4" type="video/mp4" />
         Tu navegador no soporta el elemento de video.
       </video>
-      <div className="contacto">
-        <Boton />
-      </div>
+      <div className="contacto"></div>
       <div className="content">
         {/* Aquí puedes poner el contenido que quieras sobre el video */}
 
