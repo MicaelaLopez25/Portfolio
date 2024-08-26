@@ -4,20 +4,16 @@ const Header = () => {
   return (
     <header>
       <div className="color">
-        <h1> Hello! my name is Micaela López</h1>
-        <nav>
-          <ul>
-            <li>
-              <a href="#about">Sobre Mí</a>
-            </li>
-            <li>
-              <a href="#projects">Proyectos</a>
-            </li>
-            <li>
-              <a href="#contact">Contacto</a>
-            </li>
-          </ul>
-        </nav>
+        <div
+          data-aos="fade-up"
+          style={{ marginBottom: "60px", marginTop: "200px" }}
+        >
+          <h1 className="centroo"> Hello! my name is Micaela López</h1>
+          <h2 className="h22 centroo">
+            Soy una estudiante de secundaria con ganas de seguir en una carrera
+            de programacion web
+          </h2>
+        </div>
       </div>
     </header>
   );

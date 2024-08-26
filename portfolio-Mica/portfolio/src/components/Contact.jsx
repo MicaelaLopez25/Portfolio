@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     /* From Uiverse.io by ahmed150up2 */
-    <div className="alineado">
+    <div className="abajoalfondo">
       <div className="card">
         <a class="social-link1">
           <svg fill="#fff" height="1em" viewBox="0 0 496 512">
@@ -16,7 +16,7 @@ const Contact = () => {
           </svg>{" "}
         </a>
         <a className="social-link3">
-          <svg height="1em" viewBox="0 0 576 512" fill="#fff">
+          <svg height="1em" viewBox="0 0 346 512" fill="#fff">
             <path
               d="M227.904,176.981c-0.6-0.288-23.054-11.345-27.044-12.781c-1.629-0.585-3.374-1.156-5.23-1.156
 		c-3.032,0-5.579,1.511-7.563,4.479c-2.243,3.334-9.033,11.271-11.131,13.642c-0.274,0.313-0.648,0.687-0.872,0.687
